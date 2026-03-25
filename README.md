@@ -22,7 +22,7 @@ Comparing **13 forecasting models** on Ghana's monthly inflation data (2015–20
 
 ## Key findings
 
-**Bayesian Ridge wins** because its probabilistic prior shrinks coefficients toward zero — exactly right when the training period (mean inflation: 13.7%) looks very different from the test period (mean: 31.6%). It doesn't overfit to the old regime.
+**Bayesian Ridge wins** because its probabilistic prior shrinks coefficients toward zero  exactly right when the training period (mean inflation: 13.7%) looks very different from the test period (mean: 31.6%). It doesn't overfit to the old regime.
 
 **Rolling XGBoost** solves the regime-shift problem directly by retraining on the most recent 48 months before each prediction. By mid-2023 it has high-inflation data in its window and adapts, while static models stay anchored to pre-crisis patterns.
 
