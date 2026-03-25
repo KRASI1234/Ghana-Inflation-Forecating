@@ -75,7 +75,7 @@ The **Bank of Ghana** and economic policymakers rely on inflation forecasts to s
 | Adaptive | **Rolling-Window XGBoost** — retrains on 48-month window per forecast step |
 | Meta-learner | **Weighted Blend** — inverse-RMSE weights across top 4 models |
 
-Hyperparameters tuned via time-series cross-validation (5-fold expanding window) on training set only. Final evaluation on held-out test set — no data leakage.
+Hyperparameters tuned via time-series cross-validation (5-fold expanding window) on training set only. Final evaluation on held-out test set, no data leakage.
 
 ---
 
