@@ -1,7 +1,7 @@
 # Ghana Inflation Forecasting — Machine Learning Study
 
 > **Can machine learning outperform traditional econometrics for inflation forecasting during a crisis?**
-> This project answers that using 120 months of Ghanaian macroeconomic data — including the 2022 crisis where prices peaked at **54.1% YoY**.
+> This project answers that using 120 months of Ghanaian macroeconomic data; including the 2022 crisis where prices peaked at **54.1% YoY**.
 
 ---
 
