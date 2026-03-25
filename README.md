@@ -13,9 +13,9 @@ The best model, **Bayesian Ridge**, achieved an **R² of 0.919** and reduced for
 
 | Model | RMSE | MAPE | R² |
 |---|---|---|---|
-| 🥇 Bayesian Ridge | 3.04 | 9.1% | **0.919** |
-| 🥈 Rolling XGBoost | 3.24 | **7.8%** | 0.907 |
-| 🥉 Weighted Blend | 3.43 | 10.1% | 0.896 |
+| Bayesian Ridge | 3.04 | 9.1% | **0.919** |
+| Rolling XGBoost | 3.24 | **7.8%** | 0.907 |
+| Weighted Blend | 3.43 | 10.1% | 0.896 |
 | Huber Regression | 4.68 | 13.7% | 0.807 |
 | Elastic Net | 4.99 | 16.6% | 0.780 |
 | XGBoost | 5.90 | 15.3% | 0.693 |
