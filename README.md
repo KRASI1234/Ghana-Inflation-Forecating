@@ -116,7 +116,7 @@ Hyperparameters tuned via time-series cross-validation (5-fold expanding window)
 | Policy briefings | Bayesian Ridge | Interpretable; highest R² (0.919) |
 | Uncertainty quantification | Bayesian Ridge + Bootstrap CI | 90% prediction intervals; 88% empirical coverage |
 | Robustness check | Weighted Blend | Reduces variance when any single model fails |
-| **Avoid** | SARIMAX-GARCH alone | R² = −0.10 on test set — worse than guessing the mean |
+| **Avoid** | SARIMAX-GARCH alone | R² = −0.10 on test  |
 
 Retrain Rolling XGBoost monthly on a rolling 48-month window. Pair with Bayesian Ridge intervals for risk communication. Flag months where the two models diverge by >3 percentage points for analyst review.
 
